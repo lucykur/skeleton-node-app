@@ -9,12 +9,17 @@
   "author": "Lucy Kurian",
   "license": "BSD-2-Clause",
   "dependencies": {
-    "express": "~3.5.0"
+    "express": "~3.5.0",
+    "q": "~1.0.1",
+    "request": "~2.34.0"
   },
   "devDependencies": {
     "mocha": "~1.17.1",
     "grunt": "~0.4.3",
-    "grunt-mocha": "~0.4.10",
-    "grunt-simple-mocha": "~0.4.0"
+    "grunt-simple-mocha": "~0.4.0",
+    "chai": "~1.9.0",
+    "chai-as-promised": "~4.1.1",
+    "mocha-as-promised": "~2.0.0",
+    "grunt-shell": "~0.6.4"
   }
 }
